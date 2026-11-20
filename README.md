@@ -1,5 +1,18 @@
 # Day 12 — AI SDLC: Đảo Đèn Lồng
 
+## Sản phẩm game
+
+Video demo: [docs/demo/demo.mp4](game/dao-den-long/docs/demo/demo.mp4). GitHub Release `v1.0.0` và các tag phase vẫn cần được tạo theo đúng commit.
+
+Mã nguồn Godot nằm trong [`game/dao-den-long`](game/dao-den-long/README.md); contract ở [`game.contract.json`](game.contract.json). Cài Godot 4.7.2 Standard, sau đó từ thư mục repo chạy:
+
+```sh
+godot --headless --path game/dao-den-long --editor --import --quit
+godot --path game/dao-den-long
+```
+
+Trong game, chọn **Bắt đầu**. Mặc định: WASD di chuyển, chuột xoay camera, Space nhảy, Shift lướt, E tương tác, Q Tỏa Sáng, P/Esc tạm dừng. Chạy kiểm tra simulation bằng `godot --headless --path game/dao-den-long --script res://tests/contract_checks.gd` (chạy khi working directory là `game/dao-den-long`).
+
 > **Cá nhân** (1 người / 1 MSSV) · Áp dụng SDLC cùng AI để xây một **game 3D** qua **4 phase**, từ yêu cầu ban đầu tới bản phát hành.
 > **Lab board + trợ giảng:** **[Đảo Đèn Lồng Lab](https://claude.ai/artifact/Q1RYyv1dxjUczzCbd2ZnoW)**
 

@@ -1,0 +1,5 @@
+# Local development tools and generated Godot state
+Tools/
+.idea/
+**/.godot/
+game/dao-den-long/builds/

@@ -1,0 +1,33 @@
+{
+	"checks": [
+		"Night 1 map baseline",
+		"Night 2 map baseline",
+		"Night 3 map baseline",
+		"Phase 3 night durations",
+		"Same-seed simulation deterministic",
+		"Mote pickup event and inventory",
+		"First light, deposit, and score",
+		"Lighting every lamp does not win before dawn",
+		"Relight cost and score",
+		"Fuel decay is one unit per second",
+		"Low-fuel shade drains a lantern",
+		"Shade hit loses a flame and drops half the carried motes",
+		"Win at dawn with 60 percent of lamps lit",
+		"No-flames loss takes precedence at dawn",
+		"Paused ticks advance wall tick but freeze simulation",
+		"Low-fuel drain applies on Night 1",
+		"Dawn score uses Phase 3 lantern fuel and flames on Night 1",
+		"Night 2 shade spawn points cover both islands",
+		"Fall respawn happens once after 60 ticks",
+		"Dash scenario respects edge-trigger and cooldown",
+		"Charm scenario replaces defaults and grants a 600-tick boost",
+		"Drifter scenario steals up to three motes",
+		"Pulse makes a fleeing drifter drop stolen motes",
+		"Wind scenario starts a gust at 30 seconds",
+		"Shade contact resolves in ascending ID order"
+	],
+	"failed": 0,
+	"failures": [],
+	"passed": 25,
+	"suite": "contract_checks"
+}
